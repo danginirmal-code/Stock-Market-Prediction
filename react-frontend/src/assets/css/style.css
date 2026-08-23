@@ -1,0 +1,14 @@
+
+   
+body{
+    background: #0a0e17;
+    background-image: radial-gradient(rgba(0, 150, 136, 0.1) 2px, transparent 2px);
+    background-size: 30px 30px;
+    background-attachment: fixed;
+}
+.bg-light-dark{
+    background-color: #2B3035;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
