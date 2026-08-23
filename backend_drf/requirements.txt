@@ -1,75 +1,29 @@
-Networking Industry Based Project Proposal Form
-(This project proposal should be for 2 trimesters – 24 weeks over 2
-trimesters)
-From: Miqdad Hassan
-CareerDC Group Pty. Ltd.
-T: 02 7209 3850 | W: www.careerdc.com.au
-Project Title: AI-powered network of interconnected Camera to recognise unfamiliar faces
-Industry Client Details (Compulsory for all proposals)
-Company Name: M.A COMPUTER & ELECTRICAL SERVICES
-ABN: 72 171 801 726
-Company address: 187 Waterloo Rd, Greenacre NSW 2190
-Company Profile: Information Technology and Engineering company offering a range of services and
-assistance to small and medium size organisations Australia wide.
-Website: https://maengineering.com.au
-Industry Assigned Supervisor Detail
-Contact Name: Ahmed Albadri
-Email id: projects@careerdc.com.au
-Contact Number: 02 7209 3850
-Brief Biography: Experienced Software Engineer with expertise in Networking, Cybersecutiry, GIS and
-IoT.
-Client Name and Signature: Date: 19/06/2024
-Ahmed Albadri
-Industry Assigned Supervisor Name and Signature: Date: 19/06/2024
-Ahmed Albadri
-1
-Project Proposal
-1. Background and Rationale for the Project:
-In today's world, ensuring public safety and security is paramount, especially in crowded areas and
-public buildings. This Capstone Project proposes the development of an advanced security system
-leveraging networked security cameras and artificial intelligence (AI) to enhance facial recognition
-capabilities. By deploying a network of interconnected cameras equipped with AI algorithms, the
-system aims to identify and flag unfamiliar faces in public spaces or buildings, alerting
-administrators to potential security risks in real-time.
-2. Project Goals and Objectives:
-● Design and deploy a network of security cameras strategically positioned in public spaces
-or buildings to provide comprehensive coverage and surveillance.
-● Develop AI-powered facial recognition algorithms capable of identifying familiar faces
-based on predefined criteria, such as employees, residents, or authorised personnel.
-● Implement machine learning techniques to continuously improve the accuracy and reliability
-of facial recognition, minimising false positives and negatives.
-● Integrate real-time communication capabilities between networked cameras to share facial
-recognition data and coordinate responses to security incidents.
-● Design a centralised monitoring and control interface for administrators to oversee the
-security system, receive alerts about unfamiliar faces, and take appropriate actions.
-● Enhance user privacy and data protection by implementing secure encryption protocols,
-anonymising facial data, and complying with relevant privacy regulations.
-● Conduct thorough testing, validation, and optimisation of the security system to ensure its
-effectiveness, scalability, and usability in various environments.
-3. Desired Outcomes/Deliverables:
-● Deployment of a network of interconnected security cameras equipped with AI-powered
-facial recognition capabilities in public spaces or buildings.
-● Development of facial recognition algorithms trained to identify familiar faces and detect
-unfamiliar individuals based on predefined criteria.
-● Creation of a centralised monitoring dashboard for administrators to view live camera
-feeds, receive alerts about unfamiliar faces, and review security incidents.
-● Only one camera in action
-● Provision of documentation, training materials, and user guides for administrators and
-security personnel to understand and operate the security system effectively.
-● Evaluation reports, performance metrics, and case studies demonstrating the effectiveness
-and reliability of the facial recognition security system in enhancing public safety and
-security.
-4. Project Resources:
-● Use of AI frameworks, deep learning libraries, and image processing tools for training and
-testing facial recognition models.
-2
-5. Additional information
-This Capstone Project addresses the growing need for advanced security solutions in public
-spaces and buildings to mitigate security risks and protect individuals from potential threats. By
-leveraging AI-powered facial recognition technology and networked surveillance cameras, the
-project aims to enhance situational awareness, improve response times to security incidents, and
-empower administrators with actionable insights to maintain public safety. Through rigorous testing,
-collaboration, and innovation, the project seeks to establish a scalable and reliable security system
-capable of adapting to evolving security challenges and safeguarding communities against
-emerging threats.
-3
+Django==5.2.17
+djangorestframework==3.18.0
+djangorestframework-simplejwt==5.5.1
+django-cors-headers==4.9.0
+django-admin-thumbnails==0.2.9
+
+python-decouple==3.8
+python-dotenv
+
+psycopg2-binary==2.9.10
+
+streamlit==1.51.0
+protobuf>=3.20,<7
+
+numpy==2.3.5
+pandas==2.3.3
+scikit-learn==1.7.2
+scipy==1.16.3
+joblib
+
+tensorflow==2.21.0
+keras==3.15.1
+
+matplotlib==3.10.6
+seaborn
+openpyxl
+Pillow==11.1.0
+
+requests==2.32.3
